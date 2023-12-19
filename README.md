@@ -1,6 +1,6 @@
 # QA-Portfolio
 
-### <img src="https://github.com/qavero/qavero/blob/main/icons/cat2.png" title="" alt="" width="40" height="40"/> Testing Documentation of project "Octopus"
+### <img src="https://github.com/qavero/qavero/blob/main/icons/cat2.png" title="" alt="" width="40" height="40"/> Testing Documentation of project ["Octopus"](https://github.com/Information-platform-about-IT-companies)
 - [Checklists](https://docs.google.com/spreadsheets/d/1BpmtQwwGEh1iYr-TKAZOLygV3b1avDg6/edit?usp=sharing&ouid=115646348404654575918&rtpof=true&sd=true)
 - [Test-cases API](https://docs.google.com/spreadsheets/d/1pKo2sUtvwHdVIqn_s7tBqNtCifjZSGAk/edit?usp=sharing&ouid=115646348404654575918&rtpof=true&sd=true)
 - [Bug reports](https://github.com/Information-platform-about-IT-companies/Qase_bugs/issues)
