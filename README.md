@@ -1,14 +1,14 @@
 # QA-Portfolio
 
-### <img src="https://github.com/qavero/qavero/blob/main/icons/cat2.png" title="" alt="" width="40" height="40"/> Testing Documentation of project ["Octopus"](https://github.com/Information-platform-about-IT-companies)
-- [Checklists](https://docs.google.com/spreadsheets/d/1BpmtQwwGEh1iYr-TKAZOLygV3b1avDg6/edit?usp=sharing&ouid=115646348404654575918&rtpof=true&sd=true)
-- [Test-cases API](https://docs.google.com/spreadsheets/d/1pKo2sUtvwHdVIqn_s7tBqNtCifjZSGAk/edit?usp=sharing&ouid=115646348404654575918&rtpof=true&sd=true)
-- [Bug reports](https://github.com/Information-platform-about-IT-companies/Qase_bugs/issues)
+### <img src="https://github.com/qavero/qavero/blob/main/icons/cat2.png" title="" alt="" width="40" height="40"/> Тестовая документация проекта Информационная платформа о всех IT-компаниях ["Octopus"](https://github.com/Information-platform-about-IT-companies)
+- [Чек-листы](https://docs.google.com/spreadsheets/d/1BpmtQwwGEh1iYr-TKAZOLygV3b1avDg6/edit?usp=sharing&ouid=115646348404654575918&rtpof=true&sd=true)
+- [Тест-кейсы API](https://docs.google.com/spreadsheets/d/1pKo2sUtvwHdVIqn_s7tBqNtCifjZSGAk/edit?usp=sharing&ouid=115646348404654575918&rtpof=true&sd=true)
+- [Баг-репорты](https://github.com/Information-platform-about-IT-companies/Qase_bugs/issues)
 - [Postman collections]()
 - [MindMap](https://miro.com/app/board/uXjVNSThPFM=/?moveToWidget=3458764570202067246&cot=14)
-- [Test Plans](https://docs.google.com/document/d/1UgCi4drOQ8S2DTSOmVKxEvwQNzKYLWFdWrbs5EhC2cE/edit?usp=sharing)
-- [Software Requirements Specification, SRS](https://docs.google.com/document/d/1RF9IzF6Yn1Un1Fa2JguudVVd95iR6qz6ySB90NWGfGQ/edit?usp=sharing)
-- [Test summary report](https://docs.google.com/document/d/19FiChlIkmc-dI6vKjPcVltNQrw1F7sC3LgU0QazeXzA/edit)
+- [Тест-план](https://docs.google.com/document/d/1UgCi4drOQ8S2DTSOmVKxEvwQNzKYLWFdWrbs5EhC2cE/edit?usp=sharing)
+- [Спецификация требований для MVP](https://docs.google.com/document/d/1RF9IzF6Yn1Un1Fa2JguudVVd95iR6qz6ySB90NWGfGQ/edit?usp=sharing)
+- [Отчет о тестировании продукта](https://docs.google.com/document/d/19FiChlIkmc-dI6vKjPcVltNQrw1F7sC3LgU0QazeXzA/edit)
 
 ### <img src="https://github.com/qavero/qavero/blob/main/icons/cat4.png" title="" alt="" width="40" height="40"/> Cetificates
 - [Диплом Яндекс Практикум](https://github.com/qavero/qa-portfolio/blob/main/Certificates/Veronika%20Kulikova%20diplom%20Yandex%20Practicum.pdf)
