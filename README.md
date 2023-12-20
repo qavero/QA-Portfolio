@@ -4,7 +4,7 @@
 - [Чек-листы](https://docs.google.com/spreadsheets/d/1BpmtQwwGEh1iYr-TKAZOLygV3b1avDg6/edit?usp=sharing&ouid=115646348404654575918&rtpof=true&sd=true)
 - [Тест-кейсы API](https://docs.google.com/spreadsheets/d/1pKo2sUtvwHdVIqn_s7tBqNtCifjZSGAk/edit?usp=sharing&ouid=115646348404654575918&rtpof=true&sd=true)
 - [Баг-репорты](https://github.com/Information-platform-about-IT-companies/Qase_bugs/issues)
-- [Postman collections]()
+- [Postman collections](https://github.com/qavero/QA-Portfolio/tree/main/Postman.Collections)
 - [MindMap](https://miro.com/app/board/uXjVNSThPFM=/?moveToWidget=3458764570202067246&cot=14)
 - [Тест-план](https://docs.google.com/document/d/1UgCi4drOQ8S2DTSOmVKxEvwQNzKYLWFdWrbs5EhC2cE/edit?usp=sharing)
 - [Спецификация требований для MVP](https://docs.google.com/document/d/1RF9IzF6Yn1Un1Fa2JguudVVd95iR6qz6ySB90NWGfGQ/edit?usp=sharing)
