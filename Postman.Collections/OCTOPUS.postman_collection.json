@@ -1,0 +1,703 @@
+{
+	"info": {
+		"_postman_id": "5350fd96-78d9-4658-89b5-c736c0635eab",
+		"name": "OCTOPUS",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "24527370",
+		"_collection_link": "https://bold-astronaut-812395.postman.co/workspace/Team-Workspace~2e366c06-cab9-4da1-82ce-51708dc2ebf0/collection/24527370-5350fd96-78d9-4658-89b5-c736c0635eab?action=share&source=collection_link&creator=24527370"
+	},
+	"item": [
+		{
+			"name": "AUTH",
+			"item": [
+				{
+					"name": "Регистрация пользователя",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"first_name\": \"string\",\r\n  \"last_name\": \"string\",\r\n  \"email\": \"string\",\r\n  \"password\": \"string\",\r\n  \"re_password\": \"string\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://dev.octopus-it.ru/api/v1/auth/signup/",
+							"protocol": "https",
+							"host": [
+								"dev",
+								"octopus-it",
+								"ru"
+							],
+							"path": [
+								"api",
+								"v1",
+								"auth",
+								"signup",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Подтверждение регистрации",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"uid\": \"string\",\r\n  \"token\": \"string\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://dev.octopus-it.ru/api/v1/auth/signup_confirm/",
+							"protocol": "https",
+							"host": [
+								"dev",
+								"octopus-it",
+								"ru"
+							],
+							"path": [
+								"api",
+								"v1",
+								"auth",
+								"signup_confirm",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Повторная отправка письма для подтверждения реги",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"email\": \"string\",\r\n  \"password\": \"string\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://dev.octopus-it.ru/api/v1/auth/re_signup_confirm/",
+							"protocol": "https",
+							"host": [
+								"dev",
+								"octopus-it",
+								"ru"
+							],
+							"path": [
+								"api",
+								"v1",
+								"auth",
+								"re_signup_confirm",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Вход в систему (авторизация)",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"email\": \"string\",\r\n  \"password\": \"string\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://dev.octopus-it.ru/api/v1/auth/signin/",
+							"protocol": "https",
+							"host": [
+								"dev",
+								"octopus-it",
+								"ru"
+							],
+							"path": [
+								"api",
+								"v1",
+								"auth",
+								"signin",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Сброс пароля",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"email\": \"string\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://dev.octopus-it.ru/api/v1/auth/reset_password/",
+							"protocol": "https",
+							"host": [
+								"dev",
+								"octopus-it",
+								"ru"
+							],
+							"path": [
+								"api",
+								"v1",
+								"auth",
+								"reset_password",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Подтверждение изменения пароля",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"uid\": \"string\",\r\n  \"token\": \"string\",\r\n  \"new_password\": \"string\",\r\n  \"re_new_password\": \"string\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://dev.octopus-it.ru/api/v1/auth/reset_password_confirm/",
+							"protocol": "https",
+							"host": [
+								"dev",
+								"octopus-it",
+								"ru"
+							],
+							"path": [
+								"api",
+								"v1",
+								"auth",
+								"reset_password_confirm",
+								""
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "USERS",
+			"item": [
+				{
+					"name": "Личный кабинет текущего пользователя",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzAwNjc3OTQ5LCJpYXQiOjE3MDA2NzcwNzksImp0aSI6IjI0NTUwOTNmN2E0OTQ4NWM4MDk3MWU1NmE0N2MxNzhjIiwidXNlcl9pZCI6ODh9.g2be2acU4-yelrnuKxYFBhVHKzD4UNXgREM-GUTk5w4",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://dev.octopus-it.ru/api/v1/users/me/",
+							"protocol": "https",
+							"host": [
+								"dev",
+								"octopus-it",
+								"ru"
+							],
+							"path": [
+								"api",
+								"v1",
+								"users",
+								"me",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Изменение информации о текущем пользователе",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzAwNjgxNDIwLCJpYXQiOjE3MDA2ODA3NzAsImp0aSI6IjRiZDEyMDM4Yzg2MzRjOTBhMDg1NDE3NjYyOTRiNWI3IiwidXNlcl9pZCI6ODh9.zwXzb7jwvABMu78lmI7Uy_Zp0A540wurDCpl4LbV8Yg",
+									"type": "string"
+								}
+							]
+						},
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"first_name\": \"Вася\",\r\n  \"last_name\": \"Пупкин\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://dev.octopus-it.ru/api/v1/users/me/",
+							"protocol": "https",
+							"host": [
+								"dev",
+								"octopus-it",
+								"ru"
+							],
+							"path": [
+								"api",
+								"v1",
+								"users",
+								"me",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Изменение пароля текущего пользователя",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzAwNjc3Mzc5LCJpYXQiOjE3MDA2NzcwNzksImp0aSI6ImVhNzUyOWU2MmUyMzRjMzdhOWM2ZjRlMDhiNWI0MzQ5IiwidXNlcl9pZCI6ODh9.n30vjn9HBQxzG6wbnRlr83HtIyBPtIYvdpkOYjbC-04",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"current_password\": \"string\",\r\n  \"new_password\": \"string\",\r\n  \"re_new_password\": \"string\"\r\n",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://dev.octopus-it.ru/api/v1/users/change_password/",
+							"protocol": "https",
+							"host": [
+								"dev",
+								"octopus-it",
+								"ru"
+							],
+							"path": [
+								"api",
+								"v1",
+								"users",
+								"change_password",
+								""
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "TOKENS",
+			"item": [
+				{
+					"name": "Обновление JWT токенов",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"refresh\": \"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTcwMDY3ODg3OSwiaWF0IjoxNzAwNjc3MDc5LCJqdGkiOiI5ZDA2MDFkNTk0ZmE0MDVmOWVlMzhmZTg0NDQxZWE4MSIsInVzZXJfaWQiOjg4fQ.I6OcvC6f4SkZ-fvZ6diHOO8vlX6-DFpWE1u_iy917CA\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://dev.octopus-it.ru/api/v1/tokens/refresh/",
+							"protocol": "https",
+							"host": [
+								"dev",
+								"octopus-it",
+								"ru"
+							],
+							"path": [
+								"api",
+								"v1",
+								"tokens",
+								"refresh",
+								""
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "INFO",
+			"item": [
+				{
+					"name": "Список объектов Industry",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://dev.octopus-it.ru/api/v1/info/industries/?name=раз",
+							"protocol": "https",
+							"host": [
+								"dev",
+								"octopus-it",
+								"ru"
+							],
+							"path": [
+								"api",
+								"v1",
+								"info",
+								"industries",
+								""
+							],
+							"query": [
+								{
+									"key": "name",
+									"value": "раз"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Список объектов ServiceCategory",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://dev.octopus-it.ru/api/v1/info/service_categories/?name=раз",
+							"protocol": "https",
+							"host": [
+								"dev",
+								"octopus-it",
+								"ru"
+							],
+							"path": [
+								"api",
+								"v1",
+								"info",
+								"service_categories",
+								""
+							],
+							"query": [
+								{
+									"key": "name",
+									"value": "раз"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": " Список объектов Service",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://dev.octopus-it.ru/api/v1/info/services/?name=раз",
+							"protocol": "https",
+							"host": [
+								"dev",
+								"octopus-it",
+								"ru"
+							],
+							"path": [
+								"api",
+								"v1",
+								"info",
+								"services",
+								""
+							],
+							"query": [
+								{
+									"key": "name",
+									"value": "раз"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Список объектов City",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://dev.octopus-it.ru/api/v1/info/cities/?name=м",
+							"protocol": "https",
+							"host": [
+								"dev",
+								"octopus-it",
+								"ru"
+							],
+							"path": [
+								"api",
+								"v1",
+								"info",
+								"cities",
+								""
+							],
+							"query": [
+								{
+									"key": "name",
+									"value": "м",
+									"description": "от 1 символа"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Поиск на главной странице - списки компаний и сервисов (min 2 символа)",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://dev.octopus-it.ru/api/v1/info/search_services_companies/?name=ве",
+							"protocol": "https",
+							"host": [
+								"dev",
+								"octopus-it",
+								"ru"
+							],
+							"path": [
+								"api",
+								"v1",
+								"info",
+								"search_services_companies",
+								""
+							],
+							"query": [
+								{
+									"key": "name",
+									"value": "ве",
+									"description": "минимум 2 символа"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "COMPANIES",
+			"item": [
+				{
+					"name": "Список компаний с краткой информацией",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://dev.octopus-it.ru/api/v1/companies/?page=1&city=1",
+							"protocol": "https",
+							"host": [
+								"dev",
+								"octopus-it",
+								"ru"
+							],
+							"path": [
+								"api",
+								"v1",
+								"companies",
+								""
+							],
+							"query": [
+								{
+									"key": "page",
+									"value": "1",
+									"description": "Номер страницы"
+								},
+								{
+									"key": "page_size",
+									"value": "1",
+									"description": "Количество объектов на странице",
+									"disabled": true
+								},
+								{
+									"key": "city",
+									"value": "1",
+									"description": "Уникальный идентификатор города. Множественный фильтр по id города"
+								},
+								{
+									"key": "service",
+									"value": "20",
+									"description": "Уникальный идентификатор услуги\nМножественный фильтр по id услуг (в ответе компании как минимум с одним совпадением id услуги)",
+									"disabled": true
+								},
+								{
+									"key": "is_favorited",
+									"value": "1",
+									"description": "Показывать только компании, находящиеся в списке избранного. 0-false, 1- true\n",
+									"disabled": true
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Подробная информация о компании",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://dev.octopus-it.ru/api/v1/companies/12/",
+							"protocol": "https",
+							"host": [
+								"dev",
+								"octopus-it",
+								"ru"
+							],
+							"path": [
+								"api",
+								"v1",
+								"companies",
+								"12",
+								""
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "FAVORITE",
+			"item": [
+				{
+					"name": "Добавить компанию в избранное (id-уникальный индентификатор компании)",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "https://dev.octopus-it.ru/api/v1/companies/id/favorite/",
+							"protocol": "https",
+							"host": [
+								"dev",
+								"octopus-it",
+								"ru"
+							],
+							"path": [
+								"api",
+								"v1",
+								"companies",
+								"id",
+								"favorite",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Удалить компанию из избранного",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzAwNjc5OTU1LCJpYXQiOjE3MDA2Nzg4MDksImp0aSI6ImIyNjA2YWE3MWQ4ODQxM2Q5ZDMwNzZhNTNlNDQ4MmU3IiwidXNlcl9pZCI6ODh9.xSHPNBy2xbxXyVdT5MYuI7dWEXQi-w5lqVKOorXaXDI",
+									"type": "string"
+								}
+							]
+						},
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "https://dev.octopus-it.ru/api/v1/companies/1/favorite/",
+							"protocol": "https",
+							"host": [
+								"dev",
+								"octopus-it",
+								"ru"
+							],
+							"path": [
+								"api",
+								"v1",
+								"companies",
+								"1",
+								"favorite",
+								""
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
