@@ -1,6 +1,9 @@
 # QA-Portfolio
 
 ### <img src="https://github.com/qavero/qavero/blob/main/icons/cat2.png" title="" alt="" width="40" height="40"/> Тестовая документация проекта Информационная платформа о всех IT-компаниях ["Octopus"](https://github.com/Information-platform-about-IT-companies)
+<img src="https://github.com/qavero/QA-Portfolio/blob/main/22-12-2023%2001-26-18.png" title="Главная страница" alt="" width="" height="400" align="right"/> 
+
+
 - [Чек-листы](https://docs.google.com/spreadsheets/d/1BpmtQwwGEh1iYr-TKAZOLygV3b1avDg6/edit?usp=sharing&ouid=115646348404654575918&rtpof=true&sd=true)
 - [Тест-кейсы API](https://docs.google.com/spreadsheets/d/1pKo2sUtvwHdVIqn_s7tBqNtCifjZSGAk/edit?usp=sharing&ouid=115646348404654575918&rtpof=true&sd=true)
 - [Баг-репорты](https://github.com/Information-platform-about-IT-companies/Qase_bugs/issues)
