@@ -12,6 +12,8 @@
 - [Тест-план](https://docs.google.com/document/d/1UgCi4drOQ8S2DTSOmVKxEvwQNzKYLWFdWrbs5EhC2cE/edit?usp=sharing)
 - [Спецификация требований для MVP](https://docs.google.com/document/d/1RF9IzF6Yn1Un1Fa2JguudVVd95iR6qz6ySB90NWGfGQ/edit?usp=sharing)
 - [Отчет о тестировании продукта](https://docs.google.com/document/d/19FiChlIkmc-dI6vKjPcVltNQrw1F7sC3LgU0QazeXzA/edit)
+- [Тестирование фронтенда (тест-ран)](https://app.qase.io/public/report/ad269b10777e2f6c679ca43c13ffd4177be6d8c2) + [найденные дефекты](https://app.qase.io/public/report/ad269b10777e2f6c679ca43c13ffd4177be6d8c2#defects-tab) в TMS Qase.io
+- [Тестирование API (тест-ран)](https://app.qase.io/public/report/4ee21c8178b0446ee8f2bda43422a832ac15dfaa) + [найденные дефекты](https://app.qase.io/public/report/4ee21c8178b0446ee8f2bda43422a832ac15dfaa#defects-tab) в TMS Qase.io
 
 ### <img src="https://github.com/qavero/qavero/blob/main/icons/cat4.png" title="" alt="" width="40" height="40"/> Cetificates
 - [Диплом Яндекс Практикум](https://github.com/qavero/qa-portfolio/blob/main/Certificates/Veronika%20Kulikova%20diplom%20Yandex%20Practicum.pdf)
