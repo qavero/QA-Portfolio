@@ -46,14 +46,14 @@
 ### Тестовая документация по проекту:
 - [Чек-листы]()
 - [Тест-кейсы API]()
-- [Баг-репорты в Github]()
+- [Баг-репорты в Github](https://github.com/modular-platform-it/QA/issues?page=4&q=is%3Aissue+is%3Aclosed)
 - [Postman collections]()
-- [MindMap]()
-- [Тест-план]()
-- [Спецификация требований для MVP]()
-- [Отчет о тестировании продукта]()
-- [Тестирование фронтенда (тест-ран)]() + [найденные дефекты]() в TMS Qase.io
-- [Тестирование API (тест-ран)]() + [найденные дефекты]() в TMS Qase.io
+- [MindMap](https://miro.com/app/board/uXjVKYbJHU8=/)
+- [Тест-план](https://docs.google.com/document/d/1tt_6JvUjBGMI-zO4kkAlfv-RpJv3cZ1t-b9IPRMYV34/edit)
+- [Спецификация требований для MVP](https://docs.google.com/document/d/1QPudciDyCoqg8O7qM_V3mueV2gO-2IkRqPBpWKwNvGY/edit)
+- [Отчет о тестировании продукта](https://docs.google.com/document/d/1iriZFEy3DMkoaDQli52am2r3huS3D9A_GvpBfaOgqr4/edit)
+- [Тест-ран фронтенда](https://app.qase.io/public/report/b3ed4dc2bf897c4e13c0b446e489504da210d40c) + [найденные дефекты](https://app.qase.io/public/report/b3ed4dc2bf897c4e13c0b446e489504da210d40c#defects-tab) в TMS Qase.io
+- [Тест-ран API](https://app.qase.io/public/report/c31cfff8365534d22547d580f84507ccc2842b5f) + [найденные дефекты](https://app.qase.io/public/report/c31cfff8365534d22547d580f84507ccc2842b5f#defects-tab) в TMS Qase.io
    </details>
 - ---------------------
 
