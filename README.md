@@ -1,6 +1,6 @@
-# QA-Portfolio
+# QA-Portfolio <img src="https://github.com/qavero/qavero/blob/main/icons/cat2.png" title="" alt="" width="40" height="40"/>
 
-## <img src="https://github.com/qavero/qavero/blob/main/icons/cat2.png" title="" alt="" width="40" height="40"/> Проект: Информационная платформа о всех IT-компаниях "Octopus"
+## Проект: Информационная платформа о всех IT-компаниях "Octopus" <img src="https://github.com/qavero/qavero/blob/main/icons/%D0%BE%D1%81%D1%8C%D0%BC%D0%B8%D0%BD%D0%BE%D0%B3.png" title="" alt="" width="" height="25"/>
 <details><summary> Подробнее </summary>   
   
  
@@ -28,7 +28,7 @@
     
 ----------
 ###
-## <img src="https://github.com/qavero/qavero/blob/main/icons/cat2.png" title="" alt="" width="40" height="40"/> Проект: Модульная платформа. Конструктор ботов
+## Проект: Модульная платформа. Конструктор ботов <img src="https://github.com/qavero/qavero/blob/main/icons/BOTIK.png" title="" alt="" width="" height="40"/>
 <details><summary> Подробнее </summary>   
   
 [Ссылка на Github проекта](https://github.com/modular-platform-it)
