@@ -1,6 +1,6 @@
 # <img src="https://github.com/qavero/qavero/blob/main/icons/cat2.png" title="" alt="" width="40" height="40"/> QA-Portfolio 
 
-## Проект: Информационная платформа о всех IT-компаниях "Octopus" <img src="https://github.com/qavero/qavero/blob/main/icons/%D0%BB%D0%BE%D0%B3%D0%BE.jpg" title="" alt="" width="" height="20"/>
+## Проект: Информационная платформа о всех IT-компаниях "Octopus" <img src="https://github.com/qavero/qavero/blob/main/icons/logotip-octopus.png" title="" alt="" width="" height="27"/>
 <details><summary> Подробнее </summary>   
   
  
