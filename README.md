@@ -1,6 +1,6 @@
 # QA-Portfolio
 
-## <img src="https://github.com/qavero/qavero/blob/main/icons/cat2.png" title="" alt="" width="40" height="40"/> Проект: Информационная платформа о всех IT-компаниях ["Octopus"](https://github.com/Information-platform-about-IT-companies)
+## <img src="https://github.com/qavero/qavero/blob/main/icons/cat2.png" title="" alt="" width="40" height="40"/> <details><summary>Проект: Информационная платформа о всех IT-компаниях ["Octopus"](https://github.com/Information-platform-about-IT-companies)</summary>
 <img src="https://github.com/qavero/QA-Portfolio/blob/main/22-12-2023%2001-26-18.png" title="Главная страница" alt="" width="" height="500" align="right"/> 
 Информационная онлайн-платформа “OCTOPUS” представляет собой веб-приложение с информацией об IT-компаниях в России. На платформе пользователи могут найти информацию о компаниях, их специализации, услугах, клиентах, партнёрах, офисах и многое другое. Кроме того, платформа предоставляет возможность сравнивать компании по различным параметрам и оставлять отзывы. Цель проекта - разработать площадку-википедию IT-компаний, где собрана информация о компаниях в одном месте, которая систематизирована и представлена в удобном для пользователя формате. 
 Платформа может быть полезной для любых пользователей, заинтересованных в ИТ-сфере
@@ -17,7 +17,7 @@
 - [Отчет о тестировании продукта](https://docs.google.com/document/d/19FiChlIkmc-dI6vKjPcVltNQrw1F7sC3LgU0QazeXzA/edit)
 - [Тестирование фронтенда (тест-ран)](https://app.qase.io/public/report/ad269b10777e2f6c679ca43c13ffd4177be6d8c2) + [найденные дефекты](https://app.qase.io/public/report/ad269b10777e2f6c679ca43c13ffd4177be6d8c2#defects-tab) в TMS Qase.io
 - [Тестирование API (тест-ран)](https://app.qase.io/public/report/4ee21c8178b0446ee8f2bda43422a832ac15dfaa) + [найденные дефекты](https://app.qase.io/public/report/4ee21c8178b0446ee8f2bda43422a832ac15dfaa#defects-tab) в TMS Qase.io
-
+  </details>
 
     
 ----------
