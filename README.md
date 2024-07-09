@@ -58,9 +58,9 @@
 - ---------------------
 
 ## <img src="https://github.com/qavero/qavero/blob/main/icons/cat4.png" title="" alt="" width="40" height="40"/> Cetificates
-- [Диплом Яндекс Практикум](https://github.com/qavero/qa-portfolio/blob/main/Certificates/Veronika%20Kulikova%20diplom%20Yandex%20Practicum.pdf)
-- [Diplom Yandex Practicum (English)](https://github.com/qavero/qa-portfolio/blob/main/Certificates/Veronika%20Kulikova_dimpom_english.pdf)
-- [Багатон сентябрь 2023](https://github.com/qavero/qa-portfolio/blob/main/Certificates/%D0%91%D0%B0%D0%B3%D0%B0%D1%82%D0%BE%D0%BD_%D0%B1%D0%BB%D0%B0%D0%B3%D0%BE%D0%B4%D0%B0%D1%80%D1%81%D1%82%D0%B2%D0%B5%D0%BD%D0%BD%D0%BE%D0%B5_%D0%BF%D0%B8%D1%81%D1%8C%D0%BC%D0%BE_%D0%9A%D0%BE%D0%BC%D0%B0%D0%BD%D0%B4%D0%B0_2.pdf)
-- [Багатон декабрь 2023 - участие в качестве жюри](https://github.com/qavero/qa-portfolio/blob/main/Certificates/%D0%91%D0%B0%D0%B3%D0%B0%D1%82%D0%BE%D0%BD%2014.12.2023%20_%D0%B1%D0%BB%D0%B0%D0%B3%D0%BE%D0%B4%D0%B0%D1%80%D1%81%D1%82%D0%B2%D0%B5%D0%BD%D0%BD%D0%BE%D0%B5%20%D0%BF%D0%B8%D1%81%D1%8C%D0%BC%D0%BE_%D0%B6%D1%8E%D1%80%D0%B8.pdf)
+- [Диплом Яндекс Практикум](https://drive.google.com/file/d/1ApkwD6qNmi2jER8qMKVLuT5fUTanprL5/view?usp=sharing)
+- [Diplom Yandex Practicum (English)](https://drive.google.com/file/d/1qvHQ1zpAL7D3gqDfjD_ekWs51iQM7kjQ/view?usp=sharing)
+- [Багатон сентябрь 2023](https://drive.google.com/file/d/1_orK7LNnSBGByKX40lDdNqnyVD19Hzy-/view?usp=sharing)
+- [Багатон декабрь 2023 - участие в качестве жюри](https://drive.google.com/file/d/1m3IMu9yn1S2icBjHmuSRkqlU4tdTu5RU/view?usp=sharing)
 
 
