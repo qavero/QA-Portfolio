@@ -60,7 +60,8 @@
 ## <img src="https://github.com/qavero/qavero/blob/main/icons/cat4.png" title="" alt="" width="40" height="40"/> Cetificates
 - [Диплом Яндекс Практикум](https://drive.google.com/file/d/1ApkwD6qNmi2jER8qMKVLuT5fUTanprL5/view?usp=sharing)
 - [Diplom Yandex Practicum (English)](https://drive.google.com/file/d/1qvHQ1zpAL7D3gqDfjD_ekWs51iQM7kjQ/view?usp=sharing)
-- [Багатон сентябрь 2023](https://drive.google.com/file/d/1_orK7LNnSBGByKX40lDdNqnyVD19Hzy-/view?usp=sharing)
-- [Багатон декабрь 2023 - участие в качестве жюри](https://drive.google.com/file/d/1m3IMu9yn1S2icBjHmuSRkqlU4tdTu5RU/view?usp=sharing)
+- [Багатон сентябрь 2023](https://drive.google.com/file/d/1_orK7LNnSBGByKX40lDdNqnyVD19Hzy-/view?usp=sharing) участие в тестировании провекта "Parkonaft"
+- [Багатон декабрь 2023 - участие в качестве жюри](https://drive.google.com/file/d/1m3IMu9yn1S2icBjHmuSRkqlU4tdTu5RU/view?usp=sharing) от проекта "Информационная платформа о всех IT компаниях"
+- [Сертификат IT-Практика июль 2024](https://drive.google.com/file/d/1T7pxRn2_i2K3g50FPEKJf5Sj9nrmgo84/view) за участие в реализации модуля "Конструктор ботов" для open-source проекта "Модульная платформа"
 
 
